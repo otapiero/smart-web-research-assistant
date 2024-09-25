@@ -43,7 +43,7 @@ body {
 .close-btn {
     background: none;
     border: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 24px;
     cursor: pointer;
     padding: 0;
