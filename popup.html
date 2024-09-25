@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smart Web Research Assistant</title>
-</head>
-<body>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
     <div id="explainPopup" class="popup">
-        <header class="popup-header">
-            <h1>Smart Web Research Assistant</h1>
-            <button id="closeBtn" class="close-btn" aria-label="Close">&times;</button>
-        </header>
-        <main class="popup-content">
-            <div id="explanationContent" class="explanation-content"></div>
-            <div class="action-area">
-                <button id="explainBtn" class="action-btn">Explain</button>
-            </div>
-        </main>
-        <footer class="popup-footer">
-            <button id="settingsBtn" class="settings-btn">Settings</button>
-        </footer>
+      <header class="popup-header">
+        <h1>Smart Web Research Assistant</h1>
+        <button id="closeBtn" class="close-btn" aria-label="Close">
+          &times;
+        </button>
+      </header>
+      <main class="popup-content">
+        <div id="explanationContent" class="explanation-content"></div>
+        <div class="action-area">
+          <button id="explainBtn" class="action-btn">Explain</button>
+        </div>
+      </main>
+      <footer class="popup-footer">
+        <button id="settingsBtn" class="settings-btn">Settings</button>
+      </footer>
     </div>
     <script src="content.js"></script>
-</body>
+  </body>
 </html>
